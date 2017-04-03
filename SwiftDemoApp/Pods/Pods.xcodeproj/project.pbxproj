@@ -59,7 +59,7 @@
 		00F70F2FBBEAF48C25A4D6CCE833CC05 /* GMUStaticCluster.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUStaticCluster.m; path = src/Clustering/GMUStaticCluster.m; sourceTree = "<group>"; };
 		071EAA07699570D02B4BBBA23F094DE1 /* Pods-SwiftDemoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftDemoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		079294048A0302BB47F9BC705538D9F8 /* GMUDefaultClusterRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUDefaultClusterRenderer.h; path = src/Clustering/View/GMUDefaultClusterRenderer.h; sourceTree = "<group>"; };
-		0E2A2D3CA3F9E6E4D5BFE6081C00120C /* libGoogle-Maps-iOS-Utils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libGoogle-Maps-iOS-Utils.a"; path = "libGoogle-Maps-iOS-Utils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2A2D3CA3F9E6E4D5BFE6081C00120C /* libGoogle-Maps-iOS-Utils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libGoogle-Maps-iOS-Utils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FE1C4548611FC835A58EF53425736F /* GQTPointQuadTree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GQTPointQuadTree.m; path = src/QuadTree/GQTPointQuadTree.m; sourceTree = "<group>"; };
 		1A99F3C304749021647414502EB960BE /* GMUDefaultClusterIconGenerator+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUDefaultClusterIconGenerator+Testing.h"; path = "src/Clustering/View/GMUDefaultClusterIconGenerator+Testing.h"; sourceTree = "<group>"; };
 		221F4F9004930B99F68F31DFCBCC5EC5 /* Google-Maps-iOS-Utils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Google-Maps-iOS-Utils-prefix.pch"; sourceTree = "<group>"; };
@@ -72,14 +72,14 @@
 		4BE0FDE5258D099BA690D6541E4A4AB0 /* GMUWrappingDictionaryKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUWrappingDictionaryKey.h; path = src/Clustering/Algo/GMUWrappingDictionaryKey.h; sourceTree = "<group>"; };
 		4EE61F5AC3231429450A633045BE2BC9 /* GMUClusterRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUClusterRenderer.h; path = src/Clustering/View/GMUClusterRenderer.h; sourceTree = "<group>"; };
 		54210079D52BBCF3788CC6BC385A84CD /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		782ECB32C71369F169315197229222A1 /* libPods-SwiftDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SwiftDemoApp.a"; path = "libPods-SwiftDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		782ECB32C71369F169315197229222A1 /* libPods-SwiftDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF3562BA325D4A3055128B2E61173AB /* GMUCluster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUCluster.h; path = src/Clustering/GMUCluster.h; sourceTree = "<group>"; };
 		7EA34106B7EC29E1DE21451F1C7DE030 /* Pods-SwiftDemoApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftDemoApp-resources.sh"; sourceTree = "<group>"; };
 		807F7850F775B404AE66ACC11BD44661 /* GMUGridBasedClusterAlgorithm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUGridBasedClusterAlgorithm.h; path = src/Clustering/Algo/GMUGridBasedClusterAlgorithm.h; sourceTree = "<group>"; };
 		828FDB91B45BEF8239CA3B82B64F10E7 /* GMUNonHierarchicalDistanceBasedAlgorithm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUNonHierarchicalDistanceBasedAlgorithm.h; path = src/Clustering/Algo/GMUNonHierarchicalDistanceBasedAlgorithm.h; sourceTree = "<group>"; };
 		851BE793321B30B40B4D1111993E9412 /* GMUDefaultClusterRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUDefaultClusterRenderer.m; path = src/Clustering/View/GMUDefaultClusterRenderer.m; sourceTree = "<group>"; };
 		89D60A00CE82BB22B70B9BD0E4964481 /* GMUNonHierarchicalDistanceBasedAlgorithm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUNonHierarchicalDistanceBasedAlgorithm.m; path = src/Clustering/Algo/GMUNonHierarchicalDistanceBasedAlgorithm.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C0A7EBB3C889F9A4F41E38CFE466662 /* Pods-SwiftDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		9DCD7CED5C9566A51E8CAD04E25C9E62 /* GQTBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GQTBounds.h; path = src/QuadTree/GQTBounds.h; sourceTree = "<group>"; };
 		A088AE75FC02EDBBE3B116967809A905 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
@@ -231,7 +231,6 @@
 				CE488684DF3389176F5FEF335700E758 /* QuadTree */,
 				3BA5DEC511594F9DA01537321E2C9FE2 /* Support Files */,
 			);
-			name = "Google-Maps-iOS-Utils";
 			path = "Google-Maps-iOS-Utils";
 			sourceTree = "<group>";
 		};
@@ -304,7 +303,6 @@
 				860D95B05261CF1F5CC6BA9FDE5F44FC /* Base */,
 				9EA2C0EA38FAABDBDE8476388102B4EF /* Maps */,
 			);
-			name = GoogleMaps;
 			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
@@ -393,6 +391,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					A4F8C2DC4FB48FE107D72076069E2459 = {
+						LastSwiftMigration = 0830;
+					};
+					CF3E115EBA5D747895EED32A90C732AD = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -471,6 +477,7 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -494,6 +501,7 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -557,6 +565,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -624,6 +633,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
