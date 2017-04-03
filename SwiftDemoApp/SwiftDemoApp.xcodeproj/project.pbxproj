@@ -129,6 +129,7 @@
 				TargetAttributes = {
 					02B36ACD1D190D7E00EA3A86 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Z8UQBTMB88;
 						LastSwiftMigration = 0830;
 					};
 				};
@@ -336,9 +337,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z8UQBTMB88;
 				INFOPLIST_FILE = SwiftDemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.gmsutils.DemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.symbio.pincluster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemoApp/SwiftDemoApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -351,9 +353,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z8UQBTMB88;
 				INFOPLIST_FILE = SwiftDemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.gmsutils.DemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.symbio.pincluster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemoApp/SwiftDemoApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
