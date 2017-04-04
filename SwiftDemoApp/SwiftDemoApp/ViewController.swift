@@ -33,13 +33,13 @@ let kCameraLongitude = 151.2
 
 class ViewController: UIViewController, GMUClusterManagerDelegate, GMSMapViewDelegate {
 
-  private var mapView: GMSMapView!
-  private var clusterManager: GMUClusterManager!
+  fileprivate var mapView: GMSMapView!
+  fileprivate var clusterManager: GMUClusterManager!
 
   override func loadView() {
-    let camera = GMSCameraPosition.cameraWithLatitude(kCameraLatitude,
+    let camera = GMSCameraPosition.camera(withLatitude: kCameraLatitude,
       longitude: kCameraLongitude, zoom: 10)
-    mapView = GMSMapView.mapWithFrame(CGRect.zero, camera: camera)
+    mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
     self.view = mapView
   }
 
@@ -64,8 +64,8 @@ class ViewController: UIViewController, GMUClusterManagerDelegate, GMSMapViewDel
 
   // MARK: - GMUClusterManagerDelegate
 
-  func clusterManager(clusterManager: GMUClusterManager, didTapCluster cluster: GMUCluster) {
-    let newCamera = GMSCameraPosition.cameraWithTarget(cluster.position,
+  func clusterManager(_ clusterManager: GMUClusterManager, didTap cluster: GMUCluster) {
+    let newCamera = GMSCameraPosition.camera(withTarget: cluster.position,
       zoom: mapView.camera.zoom + 1)
     let update = GMSCameraUpdate.setCamera(newCamera)
     mapView.moveCamera(update)
@@ -73,7 +73,7 @@ class ViewController: UIViewController, GMUClusterManagerDelegate, GMSMapViewDel
 
   // MARK: - GMUMapViewDelegate
 
-  func mapView(mapView: GMSMapView, didTapMarker marker: GMSMarker) -> Bool {
+  func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
     if let poiItem = marker.userData as? POIItem {
       NSLog("Did tap marker for cluster item \(poiItem.name)")
     } else {
@@ -86,19 +86,19 @@ class ViewController: UIViewController, GMUClusterManagerDelegate, GMSMapViewDel
 
   /// Randomly generates cluster items within some extent of the camera and adds them to the
   /// cluster manager.
-  private func generateClusterItems() {
+  fileprivate func generateClusterItems() {
     let extent = 0.2
     for index in 1...kClusterItemCount {
       let lat = kCameraLatitude + extent * randomScale()
       let lng = kCameraLongitude + extent * randomScale()
       let name = "Item \(index)"
       let item = POIItem(position: CLLocationCoordinate2DMake(lat, lng), name: name)
-      clusterManager.addItem(item)
+      clusterManager.add(item)
     }
   }
 
   /// Returns a random value between -1.0 and 1.0.
-  private func randomScale() -> Double {
+  fileprivate func randomScale() -> Double {
     return Double(arc4random()) / Double(UINT32_MAX) * 2.0 - 1.0
   }
 }
